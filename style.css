@@ -1,7 +1,52 @@
-.red-circle{
-    border : 2px solid red;
-    border-radius : 50%;
-    width: 400px;
-    height: 400px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill{
+    width: 260px;
+    height: 260px;
     position: relative;
+}
+
+.outer{
+    width: 260px;
+    height: 260px;
+    border: 5px solid orangered;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+}
+
+div{
+    color: white;
+    display: inline-block;
+    line-height: 40px;
+}
+
+circle{
+    fill:none;
+    stroke:url(#GradientColor);
+    stroke-width:5px;
+    stroke-dasharray:450;
+    stroke-dashoffset: 60;
+}
+
+svg{
+position:absolute;
+top:0;
+left:0;
 }
