@@ -1,0 +1,7 @@
+.red-circle{
+    border : 2px solid red;
+    border-radius : 50%;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
